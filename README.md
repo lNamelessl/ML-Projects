@@ -14,31 +14,48 @@ A binary classification project using the scikit-learn `make_moons` dataset. Thi
 - Hyperparameter tuning with GridSearchCV
 - Decision tree classification
 - Model evaluation
+- Achieved 84% accuracy using decision trees
 
 ### Dimensionality Reduction Exercise
 An exploration of dimensionality reduction techniques using the MNIST dataset:
 - Feature extraction with PCA
 - Random Forest classification
 - Performance comparison before and after dimensionality reduction
-
-### Telecom Customer Churn
-A practical application of machine learning to predict customer churn in a telecom dataset:
-- Feature engineering and selection using RFE
-- Model comparison (Random Forest, SVM, Logistic Regression, XGBoost, LightGBM)
-- Model evaluation with classification metrics
-- Model persistence for deployment
+- t-SNE visualization of high-dimensional data
+- Maintained high accuracy while reducing feature dimensions
 
 ### Ensembles Exercise
 Implementation of ensemble learning methods using the MNIST dataset:
-- Comparison of different ensemble techniques
-- Evaluation of model performance
+- Comparison of different ensemble techniques (Random Forest, Extra Trees, SVM, MLP)
+- Voting Classifier implementation
+- Stacking Classifier implementation
+- Achieved 97.95% accuracy on test data
+
+### Titanic Prediction
+Predicting survival on the Titanic using various classification algorithms:
+- Data cleaning and preprocessing
+- Feature engineering
+- Model comparison and evaluation
+
+## Project Structure
+
+ML-Projects/
+├── Moon_Classifier.ipynb
+├── Moon_Classifier v1.ipynb
+├── Dimensionlity_Reduction_Exercise.ipynb
+├── Ensembles_Exercise.ipynb
+├── Ensembles_Exercise (1).ipynb
+├── titanic-prediction.ipynb
+├── README.md
+├── .gitignore
+└── LICENSE
 
 ## Getting Started
 
 ### Prerequisites
 - Python 3.x
 - Jupyter Notebook or Google Colab
-- Required libraries: scikit-learn, pandas, numpy, matplotlib, seaborn, xgboost, lightgbm
+- Required libraries: scikit-learn, pandas, numpy, matplotlib, seaborn
 
 ### Usage
 1. Clone the repository:
@@ -54,17 +71,18 @@ cd ML-Projects
 ## Key Techniques Demonstrated
 
 - Data preprocessing and feature engineering
-- Dimensionality reduction
-- Hyperparameter tuning
+- Dimensionality reduction (PCA, t-SNE)
+- Hyperparameter tuning with GridSearchCV
 - Model selection and evaluation
-- Ensemble methods
-- Feature selection
+- Ensemble methods (Voting, Stacking)
+- Visualization of high-dimensional data
 
 ## Results
 
 - Moon Classifier: Achieved 84% accuracy using decision trees
-- Dimensionality Reduction: Maintained high accuracy (97%) while reducing feature dimensions
-- Telecom Customer Churn: Achieved ~80% accuracy in predicting customer churn
+- Dimensionality Reduction: Maintained high accuracy while reducing feature dimensions
+- Ensembles Exercise: Achieved 97.95% accuracy using stacking ensemble methods
+- Titanic Prediction: Classification of Titanic survival data
 
 ## Contributing
 
